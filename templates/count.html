@@ -1,0 +1,8 @@
+<h1>Result:{{total_count}}</h1>
+<h2>Your text:</h2>
+{{text}}
+<br>
+{%  for word,count in sorted %}
+{{word}} - {{count}}
+<br>
+{%  endfor %}
